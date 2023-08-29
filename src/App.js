@@ -26,7 +26,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('http://localhost:3001/')
+    fetch('https://my-smart-website-api.onrender.com/')
       .then(response => response.json())
       .then(console.log)
   }

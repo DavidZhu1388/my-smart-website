@@ -36,7 +36,7 @@ class Home extends Component {
 
     this.setState({ imageUrl: this.state.input });  //submit image url to server then fetch the results
 
-    fetch('http://localhost:3000/imageurl', {
+    fetch('https://my-smart-website-api.onrender.com/imageurl', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -46,7 +46,7 @@ class Home extends Component {
       .then(response => response.json())
       .then(response => {
         if (response) {
-          fetch('http://localhost:3000/image', {
+          fetch('https://my-smart-website-api.onrender.com/image', {
             method: 'put',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
@@ -81,7 +81,7 @@ class Home extends Component {
         // console.log(user.faceboxes);
 
 
-        fetch('http://localhost:3000/saveimage', {
+        fetch('https://my-smart-website-api.onrender.com/saveimage', {
             method: 'put',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
