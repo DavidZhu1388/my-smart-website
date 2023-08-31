@@ -21,6 +21,7 @@ const Navbar = ({ onRouteChange, isSignedIn }) => {
             <Link to="#" className='menu-bars'>
               <FaIcons.FaBars onClick={showSidebar} />
             </Link>
+            
           </div>
           <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
             <ul className='nav-menu-items' onClick={showSidebar}>
@@ -39,6 +40,12 @@ const Navbar = ({ onRouteChange, isSignedIn }) => {
                   </li>
                 )
               })}
+              <div className='nav-git'>
+                <a href='https://github.com/DavidZhu1388/my-smart-website'>
+                  <AIIcons.AiFillGithub />
+                  <span> Github repo </span>
+                </a>
+              </div>
             </ul>
           </nav>
         </IconContext.Provider>
