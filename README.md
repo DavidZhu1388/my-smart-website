@@ -1,6 +1,32 @@
-# Getting Started with Create React App
+# Image Recognizing Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a smart website developed to recognize faces in images submitted by users. It utilizes a combination of React, Node.js, Express.js, Knex.js, PostgreSQL, and Git to create a seamless user experience.
+
+## Features
+
+- Users can submit various image links.
+- The submitted images are processed to recognize and remember faces.
+- Authentication mechanism implemented to secure user data.
+- Backend developed with Express.js for handling HTTP calls.
+- PostgreSQL used as the database management system.
+- Knex.js utilized for seamless interaction with the database.
+- Bcrypt employed for authentication purposes.
+- Deployment achieved using Render, a cloud application hosting platform for developers.
+
+## Technologies Used
+
+- React
+- Node.js
+- Express.js
+- Knex.js
+- PostgreSQL
+- Git
+
+## About
+
+This project allowed for a deeper understanding of web development concepts, particularly in creating robust backend systems and integrating authentication mechanisms. By leveraging a stack of modern technologies, it provides users with a smooth and efficient experience for image recognition and storage.
+
+For more information, contact [junjiezhu1388@gmail.com].
 
 ## Available Scripts
 
@@ -28,43 +54,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
