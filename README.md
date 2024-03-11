@@ -1,4 +1,4 @@
-# Image Recognizing Website
+# Face Recognizing Website
 
 This project is a smart website developed to recognize faces in images submitted by users. It utilizes a combination of React, Node.js, Express.js, Knex.js, PostgreSQL, and Git to create a seamless user experience.
 
